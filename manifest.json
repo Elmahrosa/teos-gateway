@@ -1,11 +1,11 @@
-﻿{
+{
   "manifest_version": 3,
-  "name": "TEOS Gateway - المتصفح المصري WEB4",
+  "name": "TEOS Browser - Ayman.Teos",
   "version": "1.0.0",
-  "description": "افتح اي دومين .teos مباشرة من كروم - WEB4",
-  "permissions": ["webRequest", "tabs", "webNavigation"],
+  "description": "Royal Gateway for .teos domains - Ayman.Teos",
+  "permissions": ["webRequest", "webRequestBlocking", "declarativeNetRequest"],
   "host_permissions": ["*://*.teos/*"],
-  "background": { "service_worker": "background.js" },
-  "action": { "default_title": "TEOS Gateway WEB4" },
-  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" }
+  "background": {
+    "service_worker": "background.js"
+  }
 }
