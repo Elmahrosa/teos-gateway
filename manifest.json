@@ -1,11 +1,14 @@
-{
+﻿{
   "manifest_version": 3,
   "name": "TEOS Browser - Ayman.Teos",
   "version": "1.0.0",
-  "description": "Royal Gateway for .teos domains - Ayman.Teos",
-  "permissions": ["webRequest", "webRequestBlocking", "declarativeNetRequest"],
-  "host_permissions": ["*://*.teos/*"],
+  "description": "Royal Gateway for .teos domains - Ayman.Teos - The Sovereign Egyptian Web",
+  "permissions": ["declarativeNetRequest", "tabs"],
+  "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Ayman.Teos"
   }
 }
